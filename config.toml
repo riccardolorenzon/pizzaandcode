@@ -9,11 +9,6 @@ pygmentsstyle = "vs"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-# Your Google analytics code.
-googleAnalytics = "UA-123-45"
-# Your Disqus sortname.
-disqusShortname = "localhost"
-
 [params]
 	# Blog subtitle which appears below blog title. Supports markdown.
 	subtitle = "A blog of a coding and pizza eater specialist."
