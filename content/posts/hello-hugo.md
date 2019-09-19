@@ -1,8 +1,7 @@
 ---
 title: "Hello Hugo"
 date: 2019-09-19T21:11:57+02:00
-draft: false
-type: "post"
+disqus: false
 ---
 
 My first post on this blog is dedicated to the blog itself, and more precisely to the technology that i used to get it up and running. 
