@@ -1,7 +1,7 @@
 baseURL = "http://pizzaandcode.com/"
 languageCode = "en-us"
 title = "Riccardo Lorenzon's blog"
-publishdir = "/Users/riccardo/Documents/riccardolorenzon.github.io"
+publishdir = "/Users/riccardo/workspace/personal/blog//riccardolorenzon.github.io"
 theme = "ezhil"
 
 # Enable syntax highlighting.

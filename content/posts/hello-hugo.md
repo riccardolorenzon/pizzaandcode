@@ -17,11 +17,11 @@ My idea was to use Hugo in order to create a static website, hosting it on [Gith
 
 First you will need to install Go:
 
-‘brew install go‘
+`brew install go`
 
 Then Hugo of course: 
 
-‘brew install hugo‘ 
+`brew install hugo`
 
 I suggest then to create a directory, called websites, that you will use to host your website, and maybe others:
 
@@ -87,7 +87,7 @@ git push
 Now that we saw how to do it we can do the same for our Hugo. 
 
 First let's generate the static content, we will choose to set the content on the folder `<githubusername>.github.io`. 
-We can do this by setting the path on the file `config.toml`: `publishdir = "/Users/riccardo/Documents/riccardolorenzon.github.io` specifying in this way the folder the generator is supposed to write the static content into. 
+We can do this by setting the path on the file `config.toml`: `publishdir = "<your-website-directory>" specifying in this way the folder the generator is supposed to write the static content into. 
 
 After that, let's generate the content:
 
@@ -105,6 +105,7 @@ You can now connect to `<githubusername>.github.io` and check that everything wo
 
 If you want you can add a custom url, for that you can purchase it on any domain register sites, i used [dynadot](https://dynadot.com) for this.
 After you must connect your domain to the website itself. You can do that by creating an `A Record` on the domain service of your choice, although usually domain register offer one to use directly. The `A Record` must point the domain to this list of IP addresses: `185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153`. 
+
 You also need to add a file `CNAME`, to your github repository, the file must contain a single line with the domain you registered. 
 
 That's it! Thanks for reading this post. 
